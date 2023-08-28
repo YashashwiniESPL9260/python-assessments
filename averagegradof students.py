@@ -2,17 +2,17 @@
 student1 = {
   "name": "yashu",
   "age": "23",
-  "test": [75, 75]
+  "marks": [75, 75]
 }
 student2 = {
   "name": "teju",
   "age": "26",
-  "test": [50, 15]
+  "marks": [50, 15]
 }
 student3 = {
   "name": "pushu",
   "age": "18",
-  "test": [35, 65]
+  "marks": [35, 65]
 }
 
 
@@ -24,14 +24,14 @@ print(student3)
 
 # Function calculates average
 def calculate_total_average(students):
-    test = get_average(students["test"])
-    return test
+    marks = get_average(students["marks"])
+    return marks
 # Student list consisting the
 # dictionary of all students
 students = [student1,student2,student3]
 
 # Calculate letter grade of each student
-def assign_letter_grade(test):
+def assign_letter_grade(marks):
     if test >= 90:
         return "A"
     elif test >= 80:

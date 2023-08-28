@@ -23,11 +23,6 @@ print(student3)
 
 
 # Function calculates average
-def get_average(marks):
-    total_sum = sum(marks)
-    total_sum = float(total_sum)
-    return total_sum / len(marks)
-
 def calculate_total_average(students):
     test = get_average(students["test"])
     return test
